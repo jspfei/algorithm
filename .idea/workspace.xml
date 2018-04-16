@@ -2,20 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f662bab-eb0e-44a9-a5f0-97af1bc1afb8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/factory/BlackHuman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/factory/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/factory/HumanFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/factory/NvWa.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/factory/WhiteHuman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/factory/YellowHuman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/mulsingleton/MEmperor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/mulsingleton/MMinister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/singleton/Emperor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/singleton/Minister.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/utils/ClassUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/Human.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/HumanEnum.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/NvWa.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/blackHuman/AbstractBlackHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/blackHuman/BlackFemaleHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/blackHuman/BlackMaleHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/humanFactory/AbstractHumanFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/humanFactory/FemaleHumanFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/humanFactory/HumanFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/humanFactory/MaleHumanFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/whiteHuman/AbstractWhiteHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/whiteHuman/WhiteFemaleHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/whiteHuman/WhiteMaleHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/yellowHuman/AbstractYellowHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/yellowHuman/YellowFemaleHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/design/abstractfactory/yellowHuman/YellowMaleHuman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/designmode/singleton/SingletionTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/designmode/singleton/Singleton$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/designmode/singleton/Singleton$SingletonFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Greedy/designmode/singleton/Singleton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/Human.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/HumanEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/NvWa.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/AbstractBlackHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/BlackFemaleHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/BlackMaleHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/AbstractHumanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/FemaleHumanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/HumanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/MaleHumanFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/AbstractWhiteHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/WhiteFemaleHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/WhiteMaleHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/AbstractYellowHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/YellowFemaleHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/YellowMaleHuman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/adapter/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/adapter/IOuterUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/adapter/IUserInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/adapter/OuterUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/adapter/OuterUserInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/adapter/UserInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/facade/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/facade/LetterProcess.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/facade/LetterProcessImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/facade/ModenPostOffice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Greedy/src/design/facade/Police.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Greedy/src/designmode/singleton/SingletionTest.java" afterPath="$PROJECT_DIR$/Greedy/src/designmode/singleton/SingletionTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,110 +62,80 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Minister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/singleton/Minister.java">
+      <file leaf-file-name="LetterProcessImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/LetterProcessImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MEmperor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/mulsingleton/MEmperor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="109">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MMinister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/mulsingleton/MMinister.java">
+      <file leaf-file-name="ModenPostOffice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/ModenPostOffice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="376">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/utils/ClassUtils.java">
+      <file leaf-file-name="IUserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/IUserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#384#391#0" expanded="true" />
-                <element signature="e#1614#1620#0" expanded="true" />
-                <element signature="e#1832#1839#0" expanded="true" />
-                <element signature="e#2154#2161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="660">
+              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YellowHuman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/YellowHuman.java">
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhiteHuman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/WhiteHuman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="-150">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlackHuman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/BlackHuman.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="38">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HumanFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/HumanFactory.java">
+      <file leaf-file-name="IOuterUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/IOuterUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            <state relative-caret-position="38">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OuterUser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/OuterUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,12 +143,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NvWa.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/NvWa.java">
+      <file leaf-file-name="OuterUserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/OuterUserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="-292">
+              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Police.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/Police.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +182,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -170,11 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Greedy/src/java/Greedy1.java" />
-        <option value="$PROJECT_DIR$/Greedy/src/javatest/Greedy1.java" />
-        <option value="$PROJECT_DIR$/Greedy/src/javatest/Greedy2.java" />
-        <option value="$PROJECT_DIR$/Greedy/src/designmode/decorator/Human.java" />
-        <option value="$PROJECT_DIR$/Greedy/src/designmode/decorator/Decorator.java" />
         <option value="$PROJECT_DIR$/Greedy/src/designmode/decorator/Decorator_first.java" />
         <option value="$PROJECT_DIR$/Greedy/src/designmode/decorator/Decorator_zero.java" />
         <option value="$PROJECT_DIR$/Greedy/src/designmode/decorator/Decorator_two.java" />
@@ -193,6 +217,39 @@
         <option value="$PROJECT_DIR$/Greedy/src/design/factory/BlackHuman.java" />
         <option value="$PROJECT_DIR$/Greedy/src/design/factory/HumanFactory.java" />
         <option value="$PROJECT_DIR$/Greedy/src/design/factory/NvWa.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/Human.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/AbstractYellowHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/whiteHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/AbstractWhiteHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/AbstractBlackHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/YellowFemaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/YellowMaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/YellowMaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/WhiteMaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/WhiteFemaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/BlackFemaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/BlackMaleHuman.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/HumanEnum.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/HumanFactory.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/AbstractHumanFactory.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/HumanFactory.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/AbstractHumanFactory.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/MaleHumanFactory.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/FemaleHumanFactory.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/abstractfactory/NvWa.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/designmode/singleton/SingletionTest.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/facade/LetterProcess.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/facade/LetterProcessImpl.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/facade/Client.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/facade/Police.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/facade/ModenPostOffice.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/adapter/IUserInfo.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/adapter/UserInfo.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/adapter/IOuterUser.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/adapter/OuterUser.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/adapter/OuterUserInfo.java" />
+        <option value="$PROJECT_DIR$/Greedy/src/design/adapter/App.java" />
       </list>
     </option>
   </component>
@@ -204,10 +261,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-44" />
+    <option name="y" value="39" />
     <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,8 +282,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,13 +408,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
+              <option name="myItemId" value="facade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greedy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,6 +454,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="design.factory" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\github\algorithm\Greedy\src\design\abstractfactory\whiteHuman" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,67 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NvWa">
-    <configuration default="false" name="Greedy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javatest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javatest.Greedy2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Greedy" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="designmode.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="designmode.decorator.DecoratorTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Greedy" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Minister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="design.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="design.singleton.Minister" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Greedy" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.App">
     <configuration default="false" name="MMinister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -477,6 +499,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="design.factory.NvWa" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Greedy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NvWa (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="design.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="design.abstractfactory.NvWa" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Greedy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="design.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="design.facade.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Greedy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="design.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="design.adapter.App" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -877,19 +959,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Greedy2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DecoratorTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Minister" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MMinister" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NvWa" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MMinister" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NvWa" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NvWa (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="4" class="java.lang.String" itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NvWa" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MMinister" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Minister" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DecoratorTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Greedy2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NvWa (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NvWa" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MMinister" />
       </list>
     </recent_temporary>
   </component>
@@ -913,14 +995,17 @@
       <workItem from="1523327549344" duration="1752000" />
       <workItem from="1523370214554" duration="1824000" />
       <workItem from="1523457797894" duration="3558000" />
+      <workItem from="1523543432267" duration="5864000" />
+      <workItem from="1523682586062" duration="1159000" />
+      <workItem from="1523837064673" duration="1994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8690000" />
+    <option name="totallyTimeSpent" value="17707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-44" y="39" width="1382" height="690" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -933,9 +1018,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7895623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.024482109" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -943,7 +1028,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36146498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16641453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -972,69 +1057,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/javatest/Greedy1.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,10 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,85 +1094,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/singleton/Minister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/design/muiltsingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/muiltsingleton.java" />
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/mulsingleton/MEmperor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="870">
           <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/mulsingleton/MMinister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/utils/ClassUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="210">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#384#391#0" expanded="true" />
-            <element signature="e#1614#1620#0" expanded="true" />
-            <element signature="e#1832#1839#0" expanded="true" />
-            <element signature="e#2154#2161#0" expanded="true" />
+            <element signature="e#384#391#0" expanded="false" />
+            <element signature="e#1614#1620#0" expanded="false" />
+            <element signature="e#1832#1839#0" expanded="false" />
+            <element signature="e#2154#2161#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/YellowHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="390">
           <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/WhiteHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="390">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,33 +1151,277 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="330">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/HumanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
+        <state relative-caret-position="1110">
           <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/NvWa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/AbstractYellowHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/AbstractWhiteHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/YellowFemaleHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/yellowHuman/YellowMaleHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/WhiteMaleHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/whiteHuman/WhiteFemaleHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/BlackFemaleHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#176#177#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/BlackMaleHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#174#175#0" expanded="false" />
+            <element signature="e#224#225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/blackHuman/AbstractBlackHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/HumanEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/HumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/AbstractHumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/MaleHumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/humanFactory/FemaleHumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/designmode/singleton/SingletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#304#305#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/abstractfactory/NvWa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Greedy/src/design/factory/NvWa.java">
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/LetterProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/LetterProcessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/Police.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/facade/ModenPostOffice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/IUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/IOuterUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/OuterUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greedy/src/design/adapter/OuterUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

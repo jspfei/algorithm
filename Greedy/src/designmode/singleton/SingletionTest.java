@@ -1,6 +1,7 @@
 package designmode.singleton;
 
-import jdk.nashorn.internal.runtime.BitVector;
+
+import java.util.Vector;
 
 /**
  * Created by admin on 2018/4/11.
@@ -8,8 +9,8 @@ import jdk.nashorn.internal.runtime.BitVector;
 public class SingletionTest  {
     private static SingletionTest instance = null;
     //影子实例 同步更新属性
-    private BitVector properties= null;
-    private BitVector getProperties(){
+    private Vector properties= null;
+    private Vector getProperties(){
         return properties;
     }
     private SingletionTest(){}
