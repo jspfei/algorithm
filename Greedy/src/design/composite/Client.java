@@ -98,13 +98,13 @@ public class Client {
         ArrayList<Corp> all = root.getSubordinateList();
         Corp tag = null;
         for(Corp s : all){
-            if(s.getName()==name){
+            if(s.getName().equals(name)){
                 tag =  s;
                 break;
             }
             if(s instanceof  Branch){
                 tag = findCorp(name, (Branch) s);
-                if(tag !=null && tag.getName() == name){
+                if(tag !=null && tag.getName() .equals(name)){
                     break;
                 }
             }
